@@ -1,14 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Resume Website</title>
   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
 </head>
-<body>
-  <h1>Bello! This is my home </h1>
-  <h5>Yo ! I'm here </h5>
+
+<body class="bg-gradient-to-r from-pink-300 to-blue-300 ">
+  <!--Nev bar-->
+  <dev class="flex">
+    <div
+      class=" ml-3 mt-3 mb-4 bg-blue-100 bg-opacity-50 justify-between h-full w-40 shadow-lg rounded-lg border-4 border-gray ">
+      <div class="mt-3 mb-48 ml-2">
+        <a href="/experience.html">
+          <button
+            class="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 rounded-full py-1 px-3">
+            <div class="py-4 px-4 text-white text-lg" style="font-family: 'Oswald', sans-serif; font-bold ">
+              EXPERIENCE
+            </div>
+          </button>
+        </a>
+      </div>
+
+      <div class="mb-44 ml-2">
+        <a href="/index.html">
+          <button
+            class="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 rounded-full py-1 px-6">
+            <svg class="svg-icon " viewBox="0 0 20 20">
+              <path
+                d="M18.121,9.88l-7.832-7.836c-0.155-0.158-0.428-0.155-0.584,0L1.842,9.913c-0.262,0.263-0.073,0.705,0.292,0.705h2.069v7.042c0,0.227,0.187,0.414,0.414,0.414h3.725c0.228,0,0.414-0.188,0.414-0.414v-3.313h2.483v3.313c0,0.227,0.187,0.414,0.413,0.414h3.726c0.229,0,0.414-0.188,0.414-0.414v-7.042h2.068h0.004C18.331,10.617,18.389,10.146,18.121,9.88 M14.963,17.245h-2.896v-3.313c0-0.229-0.186-0.415-0.414-0.415H8.342c-0.228,0-0.414,0.187-0.414,0.415v3.313H5.032v-6.628h9.931V17.245z M3.133,9.79l6.864-6.868l6.867,6.868H3.133z">
+              </path>
+            </svg>
+            <div class="py-4 px-6 text-white text-lg" style="font-family: 'Oswald', sans-serif; font-bold ">
+              HOME
+            </div>
+          </button>
+        </a>
+      </div>
+
+      <div class="mb-4 ml-1">
+        <a href="/contact.html">
+          <button
+            class="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 rounded-full py-1 px-6">
+            <div class="py-4 px-5 text-white text-base" style="font-family: 'Oswald', sans-serif; font-bold ">
+              CONTACT
+            </div>
+          </button>
+        </a>
+      </div>
+    </div>
+
+    <!--image-->
+    <img class="max-w-screen-md mx-auto rounded-lg shadow-lg flex justify-between mt-10 mb-8 mr-24 ml-20 h-5px
+  " src="imagecss/siprofile.jpg" width="500" height="300">
+
+    <!--profile-->
+    <div
+      class="bg-gradient-to-r from-pink-300 to-purple-300 mx-auto max-w-screen-xl h-48 shadow-lg rounded-lg p-5 mt-16 mr-20 ml-2">
+      <p class="font-bold text-2xl text-purple-600"> Arphasiri Khong-ngoen </p>
+      <p class="pt-2 text-white font-semibold ">Hello, my name is Arphasiri Khong-ngoen. I graduted from Nakhonsawan
+        School.
+        I am studying in the second year of Computer Engineering at Chiang-Mai university. I'm
+        interested in programming, finanancing and mystery story. </p>
+
+      <!--My skills-->
+      <div
+        class="bg-gradient-to-r from-pink-300 to-purple-300 mx-auto max-w-screen-xl h-64 shadow-lg rounded-lg p-5 mt-28 -mr-6 -ml-4">
+        <p class="font-bold text-2xl text-purple-600"> My Skills </p>
+        <div class=" max-w-md mx-5 flex justify-between">
+          <div>
+            <img src="imagecss/c++.png"  class="w-24 h-24 rounded-full mt-5"  >
+            <p class="text-center font-semibold mt-5"> C++
+              <br> Basic
+            </p>
+          </div>
+          <div>
+            <img src="imagecss/volleyball.jpg"  class="w-24 h-24 bg-white rounded-full mt-5 ">
+            <p class="text-center font-semibold mt-5"> Play Volleyball
+              <br> Intermediate
+            </p>
+          </div>
+          <div>
+          <img src="imagecss/math.jpg" class="w-24 h-24 bg-white rounded-full mt-5 ">
+          <p class="text-center font-semibold mt-5"> computational
+            <br> good computational ability
+          </p>
+          </div>
+          
+        </div>
+
+
+
+        <P class="text-center mt-40 mb-5">
+          © 2021 sieiei.com by Arphasiri Khong-ngoen
+        </P>
+
 </body>
+
 </html>
